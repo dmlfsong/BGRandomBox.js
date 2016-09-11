@@ -1,20 +1,16 @@
 @charset 'utf-8';
-
 body,html {
 	font-family: YuGothic, 游ｺﾞｼｯｸ , Yu-Gothic, Yu Gothic;
 	margin: 0;
 	padding: 0;
 }
-
 header {
 	background-color:rgba(200,200,200,0.5);
 	border-bottom:5px solid #ccc;
 	padding-top: 15vh;
 	padding-bottom: 15vh;
 }
-.text-center {
-	text-align: center;
-}
+.text-center { text-align: center; }
 .bg--canvas {
 	left:0;
 	position:fixed;
@@ -39,3 +35,24 @@ h1 {
 	margin-left: auto;
 	width:80%;
 }
+.btn {
+	background-color:rgba(255,255,255,0.25);
+	box-shadow:2px 2px 0 #888,
+		4px 4px 0 #fff,
+		6px 6px 0 #222,
+		-3px -3px 0 #fff,
+		-5px -5px 0 #000;
+	border:2px solid #000;
+	color:#000;
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 10px;
+	padding:1rem 2rem;
+	text-decoration: none;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+	.btn:hover {
+		box-shadow: 0 0 0;
+	}
