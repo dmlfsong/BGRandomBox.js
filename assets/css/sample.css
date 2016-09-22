@@ -7,6 +7,8 @@ body,html {
 header {
 	background-color:rgba(200,200,200,0.5);
 	border-bottom:5px solid #ccc;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	padding-top: 15vh;
 	padding-bottom: 15vh;
 }
